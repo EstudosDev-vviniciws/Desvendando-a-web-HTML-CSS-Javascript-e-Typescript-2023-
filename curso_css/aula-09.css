@@ -1,0 +1,17 @@
+main{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+.container-div {
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+}
+
+#novo-id{
+    background-color:darkgreen;
+    width: 100px;
+    height: 100px;
+}

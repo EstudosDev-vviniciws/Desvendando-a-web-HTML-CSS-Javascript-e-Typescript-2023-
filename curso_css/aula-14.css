@@ -1,0 +1,20 @@
+bpdy {
+    margin:0px;
+}
+
+.menu-left{
+    background-color: pink;
+    width: 200px;
+    height: 100vh;
+
+    float: left;
+    
+}
+
+.menu-right {
+    background-color: cyan;
+    width: 300px;
+    height: 100vh;
+
+    float: right;
+}
