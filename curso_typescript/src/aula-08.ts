@@ -1,47 +1,44 @@
 class Outro {
-    endereço: string;
-
+    endereco: string;
+  
     constructor() {
-        this.endereço = "";
+      this.endereco = "";
     }
-}
-
-
-interface Carro {
-    idade: number | string; 
+  }
+  
+  interface Carro {
+    idade: number | string;
     nome: string;
-}
-
-interface Bicicleta {
+  }
+  
+  interface Bicicleta {
     rodas: number;
-}
-
-const função = (validação: boolean): Carro | Bicicleta | Outro => {
-    if (validação) {
-        return {
-            idade: 32,
-            nome: "Lancer Evo",
-        };
+  }
+  
+  const funcao = (validacao: boolean): Carro | Bicicleta | Outro => {
+    if (validacao) {
+      return {
+        idade: 54,
+        nome: "gol",
+      };
     }
     return {
-        endereço: "nohdoahsd",
+      endereco: "fdsfs",
     };
-};
-
-const resultado = função(false);
-
-if (resultado instanceof Outro) {
-    console.log("PASSOU AQUI");
-}
-
-if("idade" in resultado) {
+  };
+  
+  const resultado = funcao(false);
+  
+  if (resultado instanceof Outro) {
+    console.log("passou aqui");
+  }
+  
+  if ("idade" in resultado) {
     if (typeof resultado.idade === "string") {
-        console.log(resultado.idade);
+      console.log(resultado.idade);
     }
-
-}
-
-if ("rodas" in resultado) {
-  console.log(resultado.rodas);
-}
-
+  }
+  
+  if ("rodas" in resultado) {
+    console.log(resultado.rodas);
+  }

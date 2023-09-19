@@ -1,23 +1,23 @@
 "use strict";
 class Outro {
     constructor() {
-        this.endereço = "";
+        this.endereco = "";
     }
 }
-const função = (validação) => {
-    if (validação) {
+const funcao = (validacao) => {
+    if (validacao) {
         return {
-            idade: 32,
-            nome: "Lancer Evo",
+            idade: 54,
+            nome: "gol",
         };
     }
     return {
-        endereço: "nohdoahsd",
+        endereco: "fdsfs",
     };
 };
-const resultado = função(false);
+const resultado = funcao(false);
 if (resultado instanceof Outro) {
-    console.log("PASSOU AQUI");
+    console.log("passou aqui");
 }
 if ("idade" in resultado) {
     if (typeof resultado.idade === "string") {
