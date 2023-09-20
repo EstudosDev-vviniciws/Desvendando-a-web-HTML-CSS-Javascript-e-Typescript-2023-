@@ -3,14 +3,17 @@ interface Andar {
 }
 
 const andar: Andar = {
-    passos: null,
+    passos: null,      
 };
+
+/* Null:É utilizado quando se quer intencionalmente dizer que há uma ausência 
+de qualquer valor de objeto para aquela variável. */
 
 const funcaoTest = (): undefined | number => {
     if (andar.passos && andar.passos > 5) {
         return 324; 
     }
-    return undefined;
+    return undefined;   // Undefined:É utilizado quando uma variável não possui um valor. 
 
 }
 
